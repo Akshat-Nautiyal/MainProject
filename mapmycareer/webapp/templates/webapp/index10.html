@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+    <meta name="google-signin-client_id" content="932734642067-snqlu7rhlqnhspo0usi6lfcpan37rk6b.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="../../static/js/script.js"></script>
+
+
+    <link rel="stylesheet" href="../../static/style/style10.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="../../static/img/sm.png" id="logo" class="img-responsive">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Career Planing</a>
+                    </li>
+                    <li>
+                        <a href="#">Knowledge Center</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div classs="row">
+
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    <center>
+                        <div class="col-lg-6 col-md-5 col-sm-5 col-xm-12 center-block">
+                            <img src="../../static/img/logo.png" id="image" align="center" class="img-responsive">
+
+                        </div>
+                    </center>
+                    <div class="contact col-lg-6 col-md-7 col-sm-7 col-xm-7">
+                        <h3 align="center">
+                            <p id="first">Sign up to be
+                                <br>Guided by our professionals</p>
+                            <form action="{% url 'webapp:thankyou' %}" method="POST">
+                                <input type="text" name="name" id="name" placeholder="Name" required>
+                                <input type="email" name="email" id="email" placeholder="Email" required>
+                                <input type="text" name="phone" placeholder="Phone No" required>
+                                <input type="text" name="city" placeholder="City" required>
+                                <input type="text" name="profession" placeholder="Profession" required>
+                                <input type="submit" value="Let's Engage" id="button">
+                                <br>
+                                <p>or go
+                                    <br>
+                                    <br>"Easy Peasy Japanesey"
+                                    <br>
+
+
+                                    <br>-Sign Up with-</p>
+
+                                <img src="../../static/img/Layer 13.png" id="layer1">
+                                <div class="g-signin2" data-onsuccess="onSignIn">
+                                </div>
+                                <img src="../../static/img/Layer 12.png" id="layer2">
+
+                                <br>
+                                <br>
+                                <p>Already with us?
+                                    <a href="#">Login</a>
+                                </p>
+                                <center>
+                                    <img src="../../static/img/Layer 5.png" id="layer3">
+                                    <img src="../../static/img/Layer 6.png" id="layer3">
+                                    <img src="../../static/img/Layer 7.png" id="layer3">
+                                </center>
+                            </form>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="row clear-fix">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="#">
+                    <text>FAQ's</text>
+                </a>
+                <a href="#">
+                    <text>Contact Us</text>
+                </a>
+                <a href="#">
+                    <text>Career</text>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <text class="center-block"> MapMyCareer Private Limited</text>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <text class="pull-right"> Terms </text>
+                <text class="pull-right"> Policies </text>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
