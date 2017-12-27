@@ -6,7 +6,7 @@ from django.http import HttpResponse
 from .models import webinar
 
 def index(request):
- return render(request, 'webapp/index1.html')
+ return render(request, 'webapp/webinar1.html')
  
 
 def saveuserdata(request):
@@ -22,6 +22,7 @@ def saveuserdata(request):
 
 def index10(request):
     return render(request, "webapp/index10.html")
-
-
-
+def index11(request):
+    return render(request, "webapp/index11.html")
+def index12(request):
+    return render(request, "webapp/index12.html")

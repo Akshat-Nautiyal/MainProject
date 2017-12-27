@@ -17,22 +17,27 @@ body{
     
 }
 
-#image5{
-    max-height: .4em;
-}
+
 h3{
     color: white;
     
 }
 
-h4{
-    color: white;
-font-size: 1.7em;
-}
+
 h1{
     margin-bottom: 100px;
     color: white;
     
+}
+h5{
+    color:white;
+    font-size: 2em;
+    text-align: center;
+}
+h4{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1%;
 }
 
 #image11{
@@ -56,6 +61,9 @@ max-height: 70px;
     margin-left: 0%;
     max-height: 70px;
 }
+#image5{
+    max-height: .4em;
+}
 
 
 #container1{
@@ -68,7 +76,7 @@ max-height: 70px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    padding-right: 4em;
+    padding-right: 0em;
 }
 ul{
     list-style: none;
@@ -92,6 +100,9 @@ ul{
     }
     #wrapper3{
         min-height: 550px;
+    }
+    #god{
+    color: rgb(95, 69, 69);
     }
 
 
@@ -130,9 +141,7 @@ display: block;
 border: 0;
 text-transform: uppercase;
 }
-#submit{
 
-}
 .contact form #button:hover,.contact form #button:focus{
     background:orangered;
     color:white;
@@ -151,16 +160,7 @@ bottom:0px;
     #heading5{
         font-size: .8em;
     }
-    h5{
-        color:white;
-        font-size: 2em;
-        text-align: center;
-    }
-    h4{
-        color: white;
-        font-size: 1.5em;
-        margin-top: 1%;
-    }
+   
     #paragraph3{
         padding:2em;
         font-size: 1.5em;
@@ -179,21 +179,14 @@ bottom:0px;
         padding: 1em;
         margin-top: 0%;
     }
-    .icon{
-        max-width: 100%;
-    }
-    
-    /*Form Style*/
-    .contact{
+  .contact{
         
         background-color: rgba(12, 12, 12, 0.726);
         font-size: 1.1em;
         padding: 1em;
         background-size: cover;
-    
     }
-   
-        .wrapper > div{
+   .wrapper > div{
             
                 padding: 1em;
                 opacity: 0.7;
@@ -216,7 +209,7 @@ bottom:0px;
             #image4{
                margin-left: 100%;
                max-width:120px; 
-               margin-top: -4%;
+               margin-top: -14%;
                margin-left: 90%;
             }
             #wrapper1 p{
@@ -231,7 +224,7 @@ bottom:0px;
              font-size: 1.5em;
          }
          h4{
-             font-size: 1.5em;
+             font-size: 1em;
          }
          h5{font-size: .1em;}
          p{font-size: 1em;}
@@ -268,7 +261,7 @@ bottom:0px;
         font-size: .7em;
     }
     h4{
-        font-size: 1.5em;
+        font-size: 1em;
     }
     #image22{
         
@@ -302,11 +295,9 @@ bottom:0px;
         font-size: .7em;
     }
     h4{
-        font-size: 1.5em;
+        font-size: 1em;
     }
     #image22{
-        
-        
         width:25%;
         margin-top: 0%;
     }
@@ -336,7 +327,7 @@ bottom:0px;
         font-size: .7em;
     }
     h4{
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
     #image22{
         
@@ -370,7 +361,7 @@ bottom:0px;
         font-size: .7em;
     }
     h4{
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
     #image22{
         
@@ -404,7 +395,7 @@ bottom:0px;
         font-size: .8em;
     }
     h4{
-        font-size: 1.5em;
+        font-size: 1em;
     }
 #image22{
     
@@ -415,6 +406,8 @@ bottom:0px;
 }
 #heading5b{
     font-size: 1.5em;
+    
 }
+
 
 }

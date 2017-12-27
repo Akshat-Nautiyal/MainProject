@@ -5,3 +5,5 @@ function onSignIn(googleUser) {
     $("#pic").attr('src', profile.getImageUrl());
     $("#email").text(profile.getEmail());
 }
+
+console.log("TTTTTTTTTT");

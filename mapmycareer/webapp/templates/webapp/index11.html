@@ -74,26 +74,19 @@
         <div class="container">
             <div class="wrapper">
                 <div class="row">
-                    <center>
-                        <div class="col-lg-7 col-md-5 col-sm-5 col-xm-5 center-block">
-                            <img src="../../static/img/logo.png" id="image" align="center" class="img-responsive">
 
-                        </div>
-                    </center>
                     <div class="contact col-lg-5 col-md-7 col-sm-7 col-xm-7">
                         <h3 align="center">
-                            <p id="first">Sign up to be
-                                <br>Guided by our professionals</p>
+                            <p id="first">We are happy to
+                                <br>see you back</p>
                         </h3>
                         <center>
                             <form action="{% url 'webapp:thankyou' %}" method="POST">{% csrf_token %}
-                                <input type="text" name="name" id="name" placeholder="First Name" required>
-                                <input type="text" name="lastname" id="email" placeholder="Last Name" required>
-                                <input type="email" name="email" placeholder="Email-We will send you a validation link" required>
-                                <input type="password" name="password" placeholder="Enter your secret word" required>
-                                <input type="text" name="phone" placeholder="Phone No" required>
 
-                                <input type="submit" value="Let's Engage" id="button">
+                                <input type="email" name="email" placeholder="Please enter your Email-Id" required>
+                                <input type="password" name="password" placeholder="Enter your secret word" required>
+
+                                <input type="submit" value="Let's get started" id="button">
                             </form>
 
                             <p>or go
@@ -109,9 +102,13 @@
                             <br>
                             <br>
                             <p>
-                                <strong>Already with us?
-                                    <a href="#">Login</a>
+                                <strong>Not with us? Come we'll be happy to guide!
                                 </strong>
+                                <center>
+                                    <form>
+                                        <input type="submit" value="New User! Create One" id="button">
+                                    </form>
+                                </center>
                             </p>
                             <center>
                                 <img src="../../static/img/Layer 5.png" id="layer3">
@@ -121,6 +118,12 @@
 
                         </center>
                     </div>
+                    <center>
+                        <div class="col-lg-7 col-md-5 col-sm-5 col-xm-5 center-block">
+                            <img src="../../static/img/logo.png" id="image" align="center" class="img-responsive">
+
+                        </div>
+                    </center>
                 </div>
             </div>
 
