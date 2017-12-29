@@ -90,10 +90,10 @@ ul{
     background-size: cover;
     }
 
-    #wrapper1{
-        min-height: 320px;
-        padding: 1em;
-    }
+   #wrapper1 p{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    padding: 10%;
+   }
     #wrapper2{
         min-height: 610px;
 
@@ -167,7 +167,7 @@ bottom:0px;
         color: white;
     }
     #image22{
-        width: 50%;
+        width: 80%;
         margin-top: 50%;
     }
     .wrapper > *{
@@ -195,7 +195,7 @@ bottom:0px;
                 
                 color: rgb(189, 22, 22);
                 
-                margin-top: 10%;
+                margin-top: 1%;
             }
             
             #image00{
@@ -214,7 +214,13 @@ bottom:0px;
             }
             #wrapper1 p{
                 font-size: 150%;
-            color:white;}
+            color:white;
+            font-size: 1.3em !important;
+        }
+            #heading5b{
+                font-size: 1.4em;
+                
+            }
     @media (min-width: 200px) and (max-width:600px)
     {
         h1 {
@@ -232,7 +238,7 @@ bottom:0px;
          #image22{
             
             
-            width:30%;
+            width: 35%;
             margin-top: 0%;
         }
         #paragraph3{
@@ -240,7 +246,7 @@ bottom:0px;
             
     }
     #heading5b{
-        font-size: 1.3em;
+        font-size: 1em;
         
     }
  }       
@@ -298,7 +304,7 @@ bottom:0px;
         font-size: 1em;
     }
     #image22{
-        width:25%;
+        width:40%;
         margin-top: 0%;
     }
     #paragraph3{
@@ -306,7 +312,7 @@ bottom:0px;
         
 }
 #heading5b{
-    font-size: 1.5em;
+    font-size: 1.4em;
     
 }
 }
@@ -332,7 +338,7 @@ bottom:0px;
     #image22{
         
         
-        width:50%;
+        width:60%;
         margin-top: 20%;
     }
     #paragraph3{
@@ -340,7 +346,7 @@ bottom:0px;
         
 }
 #heading5b{
-    font-size: 1.5em;
+    font-size: 1.3em;
     
 }
 }
@@ -366,7 +372,7 @@ bottom:0px;
     #image22{
         
         margin-top: 5%;
-        width:60%;
+        width:80%;
         margin-top: 30%;
     }
     #paragraph3{
@@ -374,7 +380,7 @@ bottom:0px;
         
 }
 #heading5b{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 }
 
@@ -399,13 +405,13 @@ bottom:0px;
     }
 #image22{
     
-    margin-top: 55%;
+    margin-top: 80%;
 }
 #paragraph3{
     font-size: 1.5em;
 }
 #heading5b{
-    font-size: 1.5em;
+    font-size: 1.3em;
     
 }
 
