@@ -18,34 +18,6 @@
 </head>
 
 <body>
-
-    <div class="container" id="container1">
-
-        <img class="image" src="/static/img/1.jpg" id="image11">
-        <br>
-        <div>
-            <img srcset="/static/img/sm.png" id="image00" class="img-responsive center-block" align="center">
-        </div>
-
-        <div class="wrapper" id="wrapper1">
-            <div class="par col-sm-12 col-lg-12">
-
-
-
-                <p>We have been a trusted career advisory team,having experience of guiding students make informed career choice
-                    over the last 2 decades.
-                    <br>Besides our directing students to various available career choice.We have also been continously involved
-                    in Research and Development of assessment, interventions and counselling programs that help students,
-                    parents and teachers realise their true potential.</p>
-
-
-
-            </div>
-
-        </div>
-
-    </div>
-
     <div class="container" id="container2">
 
         <div class="wrapper" id="wrapper2">
@@ -53,7 +25,7 @@
                 <img class="image" src="/static/img/1.jpg" id="image12" align="">
                 <img src="/static/img/logo.png" class="hidden-xs " id="image1" align="right">
             </div>
-            <div class="par col-lg-8">
+            <div class="par col-lg-8 col-md-6 col-sm-6">
 
                 <h1>
                     <b>Decoding Career Selection</b>
@@ -75,7 +47,7 @@
             </div>
 
 
-            <div class="contact col-lg-4 col-md-4">
+            <div class="contact col-lg-4 col-md-6 col-sm-6" id="RegistrationBox">
 
                 <h3 align="center">Register Here</h3>
                 <form action="{% url 'webapp:thankyou' %}" method="POST">{% csrf_token %}
@@ -109,7 +81,6 @@
 
     </div>
 
-
     <div classs="row">
 
         <img class="image" src="/static/img/1.jpg" id="image12" align="">
@@ -140,13 +111,47 @@
         </div>
 
 
-        <div class="icon">
-            <h4>
-                <span class="glyphicon glyphicon-calendar"></span> Date: December 2,2017 (Thursday) Time: 5.30pm| Venue:Webinar
-            </h4>
-        </div>
-    </div>
 
+    </div>
+    <div class="container" id="container1">
+
+        <img class="image" src="/static/img/1.jpg" id="image11">
+        <br>
+        <div>
+            <img srcset="/static/img/sm.png" id="image00" class="img-responsive center-block" align="center">
+        </div>
+
+        <div class="wrapper" id="wrapper1">
+            <div class="par col-sm-12 col-lg-12">
+
+
+
+                <p>We have been a trusted career advisory team,having experience of guiding students make informed career choice
+                    over the last 2 decades.
+                    <br>Besides our directing students to various available career choice.We have also been continously involved
+                    in Research and Development of assessment, interventions and counselling programs that help students,
+                    parents and teachers realise their true potential.</p>
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="icon col-lg-8 col-md-4 col-sm-6 ">
+                <h4>
+                    <span class="glyphicon glyphicon-calendar"></span> Date: December 2,2017 (Thursday) Time: 5.30pm| Venue:Webinar
+                </h4>
+            </div>
+            <div class="register col-lg-4">
+                <a href="#RegistrationBox">
+                    <img src=" /static/img/register button.png " align="right " id="register" class="img-responsive">
+                </a>
+            </div>
+        </div>
 </body>
 
 </html>

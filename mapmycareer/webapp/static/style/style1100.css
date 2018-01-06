@@ -23,7 +23,9 @@ h3{
     
 }
 
-
+p{
+    font-family: Helvetica, Arial, sans-serif;
+}
 h1{
     margin-bottom: 100px;
     color: white;
@@ -93,6 +95,9 @@ ul{
    #wrapper1 p{
     box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
     padding: 10%;
+   font-family:  Helvetica, Arial, sans-serif
+   
+    
    }
     #wrapper2{
         min-height: 610px;
@@ -160,11 +165,13 @@ bottom:0px;
     #heading5{
         font-size: .8em;
     }
+     
    
     #paragraph3{
         padding:2em;
-        font-size: 1.5em;
+        font-size: 1.4em;
         color: white;
+        font-family: Helvetica, Arial, sans-serif
     }
     #image22{
         width: 80%;
@@ -213,13 +220,17 @@ bottom:0px;
                margin-left: 90%;
             }
             #wrapper1 p{
-                font-size: 150%;
+                
             color:white;
-            font-size: 1.3em !important;
+            font-size: 1.7em;
+            font-family:  Helvetica, Arial, sans-serif
         }
             #heading5b{
                 font-size: 1.4em;
                 
+            }
+            #register{
+                max-width: 40%;
             }
     @media (min-width: 200px) and (max-width:600px)
     {
@@ -233,7 +244,7 @@ bottom:0px;
              font-size: 1em;
          }
          h5{font-size: .1em;}
-         p{font-size: 1em;}
+         p{font-size: .8em;}
          #image{height:3em;}
          #image22{
             
@@ -241,14 +252,21 @@ bottom:0px;
             width: 35%;
             margin-top: 0%;
         }
+        #register{
+            max-width: 30%;
+        }
         #paragraph3{
-            font-size: 1.2em;
+            font-size: 1em;
             
     }
+    #wrapper1 p{
+       
+    font-size: 1em;}
     #heading5b{
         font-size: 1em;
         
     }
+   
  }       
 @media (min-width:600px) and (max-width:650px) {
     h1{
@@ -283,6 +301,9 @@ bottom:0px;
     font-size: 1em;
     
 }
+#register{
+    max-width: 20%;
+}
 }
 @media (min-width:650px) and (max-width:770px) {
     h1{
@@ -314,6 +335,9 @@ bottom:0px;
 #heading5b{
     font-size: 1.4em;
     
+}
+#register{
+    max-width: 30%;
 }
 }
 @media (min-width:770px) and (max-width:800px) {
@@ -349,6 +373,9 @@ bottom:0px;
     font-size: 1.3em;
     
 }
+#register{
+    max-width: 30%;
+}
 }
 @media (min-width:800px) and (max-width:1000px) {
     h1{
@@ -382,6 +409,9 @@ bottom:0px;
 #heading5b{
     font-size: 1.3em;
 }
+#register{
+    max-width: 30%;
+}
 }
 
 @media (min-width:1000px) and (max-width:1200px) {
@@ -414,6 +444,8 @@ bottom:0px;
     font-size: 1.3em;
     
 }
-
+#register{
+    max-width: 30%;
+}
 
 }
